@@ -10,17 +10,17 @@ export default function Dashboard() {
 
                 <div className="grid grid-cols-3 gap-6">
 
-                    <div className="col-span-2 bg-white rounded-2xl p-6 shadow">
+                    <div className="col-span-2 bg-white dark:bg-gray-800 rounded-2xl p-6 shadow">
                         <ChartCard/>
                     </div>
 
-                    <div className="bg-white rounded-2xl p-6 shadow">
+                    <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow">
                         <WalletCard/>
                     </div>
 
                 </div>
 
-                <div className="bg-white rounded-2xl p-6 shadow mt-6">
+                <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow mt-6">
                     <TransactionTable/>
                 </div>
 

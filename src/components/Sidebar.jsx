@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Sidebar () {
     return (
         <div>
-            <aside className="w-72 bg-white border-r p-4 flex flex-col">
+            <aside className="w-72 bg-white dark:bg-gray-800 border-r p-4 flex flex-col">
 
                 
                 <div className="mb-6">
@@ -13,12 +13,12 @@ export default function Sidebar () {
                 </div>
 
                 <button
-                    className="bg-amber-700 text-white py-3 rounded-xl mb-6">
+                    className="bg-amber-700  dark:bg-gray-800 text-white py-3 rounded-xl mb-6">
                     + Add Transaction
                 </button>
 
                 <nav className="space-y-2">
-                    <Link to='/' className="block p-3 rounded-lg bg-gray-100">
+                    <Link to='/' className="block p-3 rounded-lg bg-gray-100  dark:bg-gray-800">
                         Transactions
                     </Link>
 

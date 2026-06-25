@@ -3,7 +3,7 @@
 export default function WalletCard() {
     return (
         <div>
-            <div className="bg-white rounded-2xl shadow p-6">
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow p-6">
 
                 <h2 className="font-semibold mb-6">
                     Wallets

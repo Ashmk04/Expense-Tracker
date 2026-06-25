@@ -8,10 +8,6 @@ export default function Layout() {
             
                 <div className="flex h-screen">
 
-                    {/* <aside className="w-72 bg-white border-r">
-                        <Sidebar/>
-                    </aside> */}
-
                     <main className="flex-1 p-6 overflow-y-auto">
                         <Dashboard/>
                     </main>

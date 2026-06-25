@@ -5,7 +5,8 @@ import Budgets from "./pages/Budgets"
 import Wallets from "./pages/Wallets"
 import Settings from "./pages/Settings"
 import Routes from "./Routes"
-
+import { useEffect, useState } from "react"
+import { ThemeProvider } from "./contexts/theme"
 
 function App() {
   const router = createBrowserRouter([
@@ -34,14 +35,29 @@ function App() {
           element:<Settings/>
         },
       ]
-
     },
-   
   ])
+
+  const [themeMode, setThemeMode] = useState("light")
+  
+  const darkTheme = ()=>{
+    setThemeMode("dark")
+  }
+
+  const lightTheme =()=>{
+    setThemeMode("light")
+  }
+
+useEffect(()=>{
+  document.querySelector('HTML').classList.remove("light", "dark")
+  document.querySelector('HTML').classList.add(themeMode)
+},[themeMode])
 
   return (
     <>
-      <RouterProvider router={router}/>
+      <ThemeProvider value={{themeMode, darkTheme, lightTheme}}>
+        <RouterProvider router={router}/>
+      </ThemeProvider>
     </>
   )
 }
