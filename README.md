@@ -1,16 +1,83 @@
-# React + Vite
+# 💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Expense Tracker web application built with **React**, **Vite**, **React Router**, and **Tailwind CSS**. This project is being developed as part of my React learning journey to practice routing, component-based architecture, and state management.
 
-Currently, two official plugins are available:
+## 🚧 Current Progress
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ✅ React + Vite project setup
+- ✅ Tailwind CSS configuration
+- ✅ React Router setup
+- ✅ Layout with persistent sidebar using `Outlet`
+- ✅ Initial project structure
+- 🚧 Dashboard UI in progress
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- React Router DOM
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+├── pages/
+├── Layout.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## 🎯 Planned Features
+
+- Dashboard with expense summary
+- Add, edit, and delete transactions
+- Category management
+- Wallet management
+- Budget tracking
+- Analytics and charts
+- Search and filter transactions
+- Responsive design
+- Dark mode (optional)
+
+## 📸 Preview
+
+UI development is currently in progress.
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📖 Learning Goals
+
+This project is built to strengthen my understanding of:
+
+- React Components
+- React Router
+- Nested Routing with Outlet
+- Tailwind CSS
+- Context API
+- State Management
+- CRUD Operations
+- Building real-world React applications
+
+---
+
+⭐ This project is currently under active development.
