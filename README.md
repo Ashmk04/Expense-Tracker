@@ -50,7 +50,7 @@ UI development is currently in progress.
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Ashmk04/Expense-Tracker.git
 ```
 
 Install dependencies:
